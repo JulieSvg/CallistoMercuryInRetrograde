@@ -33,7 +33,7 @@ List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
 
-Julie Savauge - President
+Julie Sauvage - President
 Corinne Beard - Architect & Designer
 Kylee Waggoner - Scrum Master
 Evan Apostolou - Analyst
