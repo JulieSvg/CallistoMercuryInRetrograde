@@ -31,7 +31,7 @@ This page will be an interactive page including all the names of the dieties and
 
 https://historycooperative.org/ancient-gods/
 https://mythopedia.com/
-The visuals on these websites are really good, and the way they styled them keeps the pages looking interesting, with typically sof warm colors for backgrounds/images, while using white/bright colored fonts for the text. They also tend to keep the text pretty bold, which makes the text easier to read, too.
+The visuals on these websites are really good, and the way they styled them keeps the pages looking interesting, with typically soft warm colors for backgrounds/images, while using white/bright colored fonts for the text. They also tend to keep the text pretty bold, which makes the text easier to read, too.
 
 ### Members & Responsibilities
 
