@@ -10,7 +10,7 @@ Our website will explore the moon deities from various ancient cultures, analyzi
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+We are doing this project in order to demonstrate the skills we have learned in class, as well as to educate others about our topic. We have shown use of several different coding languages, including Markdown, HTML, CSS, and JavaScript. We will also introduce the topic of cultural deities of the moon to our readers. We will demonstrate that we have learned how to use each of these languages with eachother to create a visually appealing website that also has unique functionality.
 
 ### Core Webpages
 
