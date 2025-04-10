@@ -19,9 +19,14 @@ p {
   margin-bottom: 16px;
 }
 
+body {
+  background-color: #f2d1c9;
+  height: 100%;
+}
+
 nav {
   height: 50px;
-  background-color: purple;
+  background-color: #462749;
 }
 nav ul {
   list-style: none;
@@ -69,4 +74,50 @@ nav a:hover {
 @font-face {
   font-family: hatolie;
   src: url(Hatolie.ttf);
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.intro p {
+  width: 620px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.haliya {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.haliya h3 {
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+  font-size: 30px;
+}
+
+.haliya .flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.haliya p {
+  width: 500px;
+}
+
+.haliya img {
+  width: 40%
+  border-radius: 50%;
 }
