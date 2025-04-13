@@ -103,7 +103,6 @@ ul li:hover ul.dropdown {
   src: url(../fonts/Golding\ Brittey\ -\ Regular.otf);
 }
 
-/* Home page */
 .intro {
   display: flex;
   flex-direction: row;
@@ -112,7 +111,7 @@ ul li:hover ul.dropdown {
   align-items: center;
 }
 .intro p {
-  width: 620px;
+  width: 830px;
   font-family: golding;
   font-stretch: semi-expanded;
   font-size: 20px;
@@ -122,15 +121,15 @@ ul li:hover ul.dropdown {
   text-align: center;
 }
 
-.haliya {
-  margin-left: 100px;
-  margin-top: 50px;
-}
-
-.haliya h3 {
+h3 {
   font-family: hatolie;
   font-stretch: semi-expanded;
   font-size: 30px;
+}
+
+.haliya {
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .haliya #flexbox {
@@ -154,12 +153,6 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.chandra h3 {
-  font-family: hatolie;
-  font-stretch: semi-expanded;
-  font-size: 30px;
-}
-
 .chandra #flexbox2 {
   display: flex;
   flex-direction: row;
@@ -181,7 +174,7 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.kuutar h3 {
+h3 {
   font-family: hatolie;
   font-stretch: semi-expanded;
   font-size: 30px;
@@ -205,11 +198,6 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.khonshu h3 {
-  font-family: hatolie;
-  font-stretch: semi-expanded;
-  font-size: 30px;
-}
 .khonshu #flexbox4 {
   display: flex;
   flex-direction: row;
@@ -226,8 +214,6 @@ ul li:hover ul.dropdown {
   width: 20%;
 }
 
-/* Chandra page */
-
 .headerChandra {
   height: 500px;
   background-color: antiquewhite;
@@ -237,12 +223,4 @@ ul li:hover ul.dropdown {
   background-size: cover;
   display: flex;
   justify-content: center;
-}
-
-.content-chandra {
-  padding: 50px;
-}
-.intro-chandra {
-  font-size: x-large;
-  text-align: center;
 }
