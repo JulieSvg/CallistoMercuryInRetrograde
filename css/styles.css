@@ -49,6 +49,22 @@ nav a:hover {
   text-decoration-style: solid;
 }
 
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background: #462749;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
 .hero-image img {
   background: linear-gradient(rgba (0, 0, 0, 0.5) rgba (0, 0, 0, 0.5)),
     url(../images/beautiful-wide-shot-full-moon-night-sky.jpg);
@@ -65,7 +81,6 @@ nav a:hover {
   top: 30%;
   left: 33%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
   font-family: hatolie;
   font-stretch: semi-expanded;
@@ -74,6 +89,11 @@ nav a:hover {
 @font-face {
   font-family: hatolie;
   src: url(Hatolie.ttf);
+}
+
+@font-face {
+  font-family: golding;
+  src: url(../fonts/Golding\ Brittey\ -\ Regular.otf);
 }
 
 .intro {
@@ -85,16 +105,17 @@ nav a:hover {
 }
 .intro p {
   width: 620px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: golding;
+  font-stretch: semi-expanded;
   font-size: 20px;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .haliya {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 50px;
 }
 
@@ -104,20 +125,69 @@ nav a:hover {
   font-size: 30px;
 }
 
-.haliya .flexbox {
+.haliya #flexbox {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 600px;
 }
 
 .haliya p {
-  width: 500px;
+  width: 600px;
 }
 
 .haliya img {
-  width: 40%
-  border-radius: 50%;
+  width: 20%;
+}
+
+.chandra {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.chandra h3 {
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+  font-size: 30px;
+}
+
+.chandra #flexbox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.chandra p {
+  width: 600px;
+}
+
+.chandra img {
+  width: 20%;
+}
+
+.kuutar {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.kuutar h3 {
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+  font-size: 30px;
+}
+.kuutar #flexbox3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kuutar p {
+  width: 600px;
+}
+.kuutar img {
+  width: 20%;
 }
