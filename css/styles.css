@@ -19,6 +19,7 @@ p {
   margin-bottom: 16px;
 }
 
+/* Syling for all Pages  */
 body {
   background-color: #f2d1c9;
   height: 100%;
@@ -26,8 +27,10 @@ body {
 
 nav {
   height: 50px;
-  background-color: #462749;
+  width: 100%;
+  background-color: purple;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -65,21 +68,25 @@ ul li:hover ul.dropdown {
   display: block;
 }
 
-.hero-image img {
-  background: linear-gradient(rgba (0, 0, 0, 0.5) rgba (0, 0, 0, 0.5)),
-    url(../images/beautiful-wide-shot-full-moon-night-sky.jpg);
-  background-position: center top;
-  height: 40%;
-  width: 100%;
-  object-fit: contain;
-  filter: brightness(60%);
+.headerHome {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/beautiful-wide-shot-full-moon-night-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-text {
   text-align: center;
-  position: absolute;
-  top: 30%;
-  left: 33%;
   color: white;
   font-size: 30px;
   font-family: hatolie;
@@ -104,7 +111,7 @@ ul li:hover ul.dropdown {
   align-items: center;
 }
 .intro p {
-  width: 620px;
+  width: 830px;
   font-family: golding;
   font-stretch: semi-expanded;
   font-size: 20px;
@@ -114,15 +121,15 @@ ul li:hover ul.dropdown {
   text-align: center;
 }
 
-.haliya {
-  margin-left: 100px;
-  margin-top: 50px;
-}
-
-.haliya h3 {
+h3 {
   font-family: hatolie;
   font-stretch: semi-expanded;
   font-size: 30px;
+}
+
+.haliya {
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .haliya #flexbox {
@@ -146,12 +153,6 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.chandra h3 {
-  font-family: hatolie;
-  font-stretch: semi-expanded;
-  font-size: 30px;
-}
-
 .chandra #flexbox2 {
   display: flex;
   flex-direction: row;
@@ -173,7 +174,7 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.kuutar h3 {
+h3 {
   font-family: hatolie;
   font-stretch: semi-expanded;
   font-size: 30px;
@@ -197,11 +198,6 @@ ul li:hover ul.dropdown {
   margin-top: 50px;
 }
 
-.khonshu h3 {
-  font-family: hatolie;
-  font-stretch: semi-expanded;
-  font-size: 30px;
-}
 .khonshu #flexbox4 {
   display: flex;
   flex-direction: row;
@@ -216,4 +212,15 @@ ul li:hover ul.dropdown {
 
 .khonshu img {
   width: 20%;
+}
+
+.headerChandra {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/chandraHeroImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
