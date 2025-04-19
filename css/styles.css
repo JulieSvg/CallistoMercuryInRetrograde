@@ -225,6 +225,40 @@ h3 {
   justify-content: center;
 }
 
+.content-chandra {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.list-origin-chandra {
+  margin-left: 50px;
+}
+
+.bold-chandra {
+  font-weight: bold;
+}
+
+.text-img-chandra {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-chandra {
+  width: 60%;
+}
+
+.image-chandra {
+  width: 18%;
+}
+
+.image-chandra img {
+  width: 100%;
+}
+
 .poll {
   position: absolute;
   top: 800px;
