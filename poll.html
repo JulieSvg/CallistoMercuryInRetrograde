@@ -30,20 +30,29 @@
         </li>
       </ul>
     </nav>
-    <div class="hero-image">
-      <img
-        src="images/beautiful-wide-shot-full-moon-night-sky.jpg"
-        alt="picture of the Moon"
-      />
-      <div class="hero-text">
-        <h1>Cultural Deities of the Moon</h1>
-        <h2>Who is Your Favorite?</h2>
+    <header class="headerHome">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Cultural Deities of the Moon</h1>
+          <h2>Vote for your Favorite</h2>
+        </div>
       </div>
-    </div>
+    </header>
 
     <div class="poll">
       <div class="question"></div>
       <div class="answers"></div>
+    </div>
+    <div class="submitButton">
+      <button type="submit" class="btn" onclick="openPopup()">
+        Submit Answer
+      </button>
+    </div>
+    <div class="popup" id="popup">
+      <img src="images/checkmark.png" alt="checkmark" />
+      <h2>Thank You!</h2>
+      <p>Your answer has been successfully submitted. Thanks!</p>
+      <button type="button" onclick="closePopup()">OK</button>
     </div>
 
     <script src="js/poll.js"></script>

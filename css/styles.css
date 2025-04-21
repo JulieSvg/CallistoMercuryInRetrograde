@@ -297,7 +297,7 @@ h3 {
 }
 
 .poll .answers .answer.selected {
-  border: 2px solid #e086d3;
+  border: 2px solid #f2d1c9;
 }
 
 .poll .answers .answer span.percentage-value {
@@ -312,4 +312,77 @@ h3 {
 
 .poll .answers .answer span.percentage-bar {
   position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background: #f2d1c9;
+  z-index: -1;
+  transition: width 300ms ease-in-out;
+}
+
+.submitButton {
+  margin-top: 27%;
+  margin-left: 46%;
+  padding-bottom: 50px;
+}
+
+.submitButton button {
+  padding: 15px 15px;
+  background-color: #462749;
+  color: #f2d1c9;
+  border-radius: 15%;
+  font-family: golding;
+  cursor: pointer;
+}
+
+.popup {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  /* top: 115%; */
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+  visibility: visible;
+  top: 115%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+  width: 150px;
+  margin-top: -15%;
+  padding: 20px;
+}
+
+.popup h2 {
+  color: #462749;
+  font-family: hatolie;
+  font-size: 30px;
+}
+.popup p {
+  color: #462749;
+  font-family: golding;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+
+.popup button {
+  padding: 10px;
+  background-color: #e086d3;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  color: #462749;
+  font-size: 30px;
+  font-family: golding;
+  cursor: pointer;
 }
