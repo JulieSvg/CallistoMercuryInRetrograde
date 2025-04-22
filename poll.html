@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poll</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/moon favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="lore.html">Lore</a>
+          <ul class="dropdown">
+            <li><a href="lore.html">Kaliya</a></li>
+            <li><a href="chandra.html">Chandra</a></li>
+            <li><a href="kuutar.html">Kuutar</a></li>
+            <li><a href="khonshu.html">Khonshu</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="comparison.html">Comparing & Contrasting</a>
+        </li>
+        <li>
+          <a class="active" href="poll.html">Who's Your Favorite?</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="headerHome">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Cultural Deities of the Moon</h1>
+          <h2>Vote for your Favorite</h2>
+        </div>
+      </div>
+    </header>
+
+    <div class="poll">
+      <div class="question"></div>
+      <div class="answers"></div>
+    </div>
+    <div class="submitButton">
+      <button type="submit" class="btn" onclick="openPopup()">
+        Submit Answer
+      </button>
+    </div>
+    <div class="popup" id="popup">
+      <img src="images/checkmark.png" alt="checkmark" />
+      <h2>Thank You!</h2>
+      <p>Your answer has been successfully submitted. Thanks!</p>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+    <script src="js/poll.js"></script>
+  </body>
+</html>

@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* Styling for all Pages  */
+body {
+  background-color: #f2d1c9;
+  height: 100%;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: purple;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: hatolie;
+  font-size: 20px;
+  font-stretch: semi-expanded;
+}
+
+nav a:hover {
+  text-decoration-style: solid;
+  border-bottom: 2px solid #f2d1c9;
+  padding-bottom: 3px;
+}
+nav ul li a.active {
+  font-weight: bold;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background: #462749;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.headerHome {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/beautiful-wide-shot-full-moon-night-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+}
+
+@font-face {
+  font-family: hatolie;
+  src: url(Hatolie.ttf);
+}
+
+@font-face {
+  font-family: golding;
+  src: url(../fonts/Golding\ Brittey\ -\ Regular.otf);
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.intro p {
+  width: 830px;
+  font-family: golding;
+  font-stretch: semi-expanded;
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+  font-size: 30px;
+}
+
+.haliya {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.haliya #flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.haliya p {
+  width: 600px;
+}
+
+.haliya img {
+  width: 20%;
+}
+
+.chandra {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.chandra #flexbox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.chandra p {
+  width: 600px;
+}
+
+.chandra img {
+  width: 20%;
+}
+
+.kuutar {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: hatolie;
+  font-stretch: semi-expanded;
+  font-size: 30px;
+}
+.kuutar #flexbox3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kuutar p {
+  width: 600px;
+}
+.kuutar img {
+  width: 20%;
+}
+
+.khonshu {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.khonshu #flexbox4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.khonshu p {
+  width: 600px;
+}
+
+.khonshu img {
+  width: 20%;
+}
+
+.headerChandra {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/chandraHeroImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.content-chandra {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.list-origin-chandra {
+  margin-left: 50px;
+}
+
+.bold-chandra {
+  font-weight: bold;
+}
+
+.text-img-chandra {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-chandra {
+  width: 60%;
+}
+
+.image-chandra {
+  width: 18%;
+}
+
+.image-chandra img {
+  width: 100%;
+}
+
+.headerKuutar {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/kuutarHeader.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.maiden-prayer {
+  width: 250px;
+  font-style: italic;
+}
+.image-kuutar {
+  margin-right: 100px;
+}
+
+.image-kuutar img {
+  height: 150%;
+  width: 150%;
+  border-radius: 25%;
+}
+
+.poll {
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: #e086d3;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px 5px rgba (35, 30, 128, 0.05);
+}
+
+.poll .question {
+  padding: 20px;
+  color: #462749;
+  font-size: 18px;
+  border-bottom: 1px solid #462749;
+  font-family: golding;
+}
+
+.poll .answers {
+  padding: 20px 20px 10px;
+}
+
+.poll .answers .answer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  line-height: 40px;
+  color: #462749;
+  margin-bottom: 10px;
+  border: 1px solid #462749;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.poll .answers .answer.selected {
+  border: 2px solid #f2d1c9;
+}
+
+.poll .answers .answer span.percentage-value {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 40px;
+  transform: translateY(-50%);
+  color: #462749;
+  font-size: 15px;
+}
+
+.poll .answers .answer span.percentage-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background: #f2d1c9;
+  z-index: -1;
+  transition: width 300ms ease-in-out;
+}
+
+.submitButton {
+  margin-top: 27%;
+  margin-left: 46%;
+  padding-bottom: 50px;
+}
+
+.submitButton button {
+  padding: 15px 15px;
+  background-color: #462749;
+  color: #f2d1c9;
+  border-radius: 15%;
+  font-family: golding;
+  cursor: pointer;
+}
+
+.popup {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  /* top: 115%; */
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+  visibility: visible;
+  top: 115%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+  width: 150px;
+  margin-top: -15%;
+  padding: 20px;
+}
+
+.popup h2 {
+  color: #462749;
+  font-family: hatolie;
+  font-size: 30px;
+}
+.popup p {
+  color: #462749;
+  font-family: golding;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+
+.popup button {
+  padding: 10px;
+  background-color: #e086d3;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  color: #462749;
+  font-size: 30px;
+  font-family: golding;
+  cursor: pointer;
+}
