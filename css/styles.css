@@ -273,6 +273,19 @@ h3 {
   display: flex;
   justify-content: center;
 }
+.maiden-prayer {
+  width: 250px;
+  font-style: italic;
+}
+.image-kuutar {
+  margin-right: 100px;
+}
+
+.image-kuutar img {
+  height: 150%;
+  width: 150%;
+  border-radius: 25%;
+}
 
 .poll {
   position: absolute;
