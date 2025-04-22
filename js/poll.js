@@ -1,6 +1,6 @@
 let poll = {
   question: "Who is your favorite deity?",
-  answers: ["Kaliya", "Chandra", "Kuutar", "Khonshu"],
+  answers: ["Haliya", "Chandra", "Kuutar", "Khonshu"],
   pollCount: 20,
   answersWeight: [4, 4, 2, 10],
 

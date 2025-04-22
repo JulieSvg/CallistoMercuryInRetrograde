@@ -287,6 +287,29 @@ h3 {
   border-radius: 25%;
 }
 
+.haliya-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.haliya-page section {
+  font-family: hatolie;
+  margin: 20px;
+}
+
+.haliya-page p {
+  width: 830px;
+  font-stretch: semi-expanded;
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 .poll {
   position: absolute;
   top: 800px;
