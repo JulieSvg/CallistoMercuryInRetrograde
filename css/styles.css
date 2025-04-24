@@ -264,6 +264,39 @@ h3 {
   width: 100%;
 }
 
+.feedback-box {
+  font-family: golding;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e086d3;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px 5px rgba (35, 30, 128, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.feedback-question {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feedback-box button {
+  padding: 15px 15px;
+  background-color: #462749;
+  margin-left: 5px;
+  color: #f2d1c9;
+  border-radius: 15%;
+  font-family: golding;
+  cursor: pointer;
+}
+
 .headerKuutar {
   height: 500px;
   background-color: antiquewhite;
