@@ -263,6 +263,24 @@ h3 {
 .image-chandra img {
   width: 100%;
 }
+.popup2 {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  /* top: 0; */
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup2 {
+  visibility: visible;
+  transform: translateX(-50%) scale(1);
+}
 
 .feedback-box {
   font-family: golding;

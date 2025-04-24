@@ -1,8 +1,12 @@
-function handleFeedback(liked) {
-    const message = document.getElementById('response-message');
-    if (liked) {
-      message.textContent = "We're glad you found it helpful!";
-    } else {
-      message.textContent = "Thanks for the feedback! What would you like to see more of?";
-    }
-  }
+function showPopup(message) {
+  document.getElementById("popup-message").innerText = message;
+  openPopup();
+}
+
+function openPopup() {
+  document.getElementById("popup").classList.add("open-popup");
+}
+
+function closePopup() {
+  document.getElementById("popup").classList.remove("open-popup");
+}
