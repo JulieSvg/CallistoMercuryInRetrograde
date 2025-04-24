@@ -466,3 +466,14 @@ h3 {
   font-family: golding;
   cursor: pointer;
 }
+
+.header-comp {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/Phasesmoon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
