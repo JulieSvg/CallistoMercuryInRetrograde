@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparison</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/moon favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="lore.html">Lore</a>
+          <ul class="dropdown">
+            <li><a href="haliya.html">Haliya</a></li>
+            <li><a href="chandra.html">Chandra</a></li>
+            <li><a href="kuutar.html">Kuutar</a></li>
+            <li><a href="lore.html">Khonshu</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="comparison.html">Comparing & Contrasting</a>
+        </li>
+        <li>
+          <a href="poll.html">Who's Your Favorite?</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header-comp">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Moon Deities Across Cultures</h1>
+          <h2>Comparison</h2>
+        </div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <p>
+        Across different cultures and mythologies, the moon has inspired
+        fascinating deities that reflect people’s beliefs about femininity,
+        protection, cycles, and cosmic power. Haliya, Khonshu, Kuutar, and
+        Chandra are four moon-associated figures from Filipino, Egyptian,
+        Finnish, and Hindu traditions. While they each have unique stories and
+        traits, they also share surprising similarities. Here's a look at how
+        they compare.
+      </p>
+    </section>
+    <section class="content-chandra">
+      <section class="comparison-section">
+        <h3>Comparing the Moon Deities</h3>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Aspect</th>
+              <th>Haliya</th>
+              <th>Khonshu</th>
+              <th>Kuutar</th>
+              <th>Chandra</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Culture</td>
+              <td>Philippines</td>
+              <td>Egypt</td>
+              <td>Finland</td>
+              <td>India</td>
+            </tr>
+            <tr>
+              <td>Domain</td>
+              <td>Moon, warrior goddess</td>
+              <td>Moon, healing, time</td>
+              <td>Moonlight, beauty, wealth</td>
+              <td>Moon, emotions, fertility</td>
+            </tr>
+            <tr>
+              <td>Symbolism</td>
+              <td>Strength, protection</td>
+              <td>Guidance, rebirth</td>
+              <td>Femininity, magic</td>
+              <td>Calmness, cycles</td>
+            </tr>
+            <tr>
+              <td>Notable Stories</td>
+              <td>Fights the sea monster Bakunawa</td>
+              <td>Helps souls travel and heals</td>
+              <td>Weaves moonlight into fabric</td>
+              <td>Drives a chariot across the sky</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="fun-facts">
+        <h3>Fun Facts About the Moon Deities</h3>
+        <div class="facts-grid">
+          <div class="fact-box">
+            <h4>Haliya</h4>
+            <p>
+              Haliya wears a mask during rituals to symbolize her strength and
+              mystery. She’s one of the few known warrior goddesses in
+              Philippine mythology.
+            </p>
+          </div>
+
+          <div class="fact-box">
+            <h4>Khonshu</h4>
+            <p>
+              Khonshu’s name means “traveler” because he travels across the
+              night sky. He also plays a major role in modern Marvel comics as
+              the god behind Moon Knight!
+            </p>
+          </div>
+
+          <div class="fact-box">
+            <h4>Kuutar</h4>
+            <p>
+              Kuutar is known as the “Lady of the Moon” in Finnish poetry. She’s
+              often described weaving shimmering silver cloth from moonlight.
+            </p>
+          </div>
+
+          <div class="fact-box">
+            <h4>Chandra</h4>
+            <p>
+              Chandra rides a chariot drawn by ten white horses or an antelope.
+              His phases are used to determine traditional Hindu calendars and
+              festivals.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <div class="feedback-box">
+      <div class="feedback-question">
+        <p>Did you like this fun-facts?</p>
+        <button class="btn" onclick="openPopup()">Yes</button>
+        <button class="btn" onclick="openPopup()">No</button>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <img src="images/checkmark.png" alt="checkmark" />
+      <h2>Thank You for Your Feedback!</h2>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+    <script src="js/feedback.js"></script>
+  </body>
+</html>
