@@ -290,7 +290,7 @@ h3 {
 .headerHaliya {
   height: 500px;
   background-color: antiquewhite;
-  background-image: url(//images/HaliyaCover.jpg);
+  background-image: url(../images/HaliyaCover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -303,9 +303,13 @@ h3 {
 }
 
 .image-Haliya img {
-  height: 150%;
-  width: 150%;
+  height: 100px;
+  width: 100px;
   border-radius: 25%;
+}
+
+.iconsHaliya {
+  padding-bottom: 50px;
 }
 
 .poll {
