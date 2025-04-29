@@ -358,39 +358,17 @@ h3 {
   border-radius: 25%;
 }
 
-<<<<<<< HEAD
 .headerKhonshu {
   height: 500px;
   background-color: antiquewhite;
   background-image: url(../images/khonshu\ header.jpg);
-=======
-.headerHaliya {
-  height: 500px;
-  background-color: antiquewhite;
-  background-image: url(../images/HaliyaCover.jpg);
->>>>>>> e74e06e224ece417646d6653a4d8b25d31b7b412
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
 .legends {
-=======
-
-.image-Haliya {
-  margin-right: 100px;
-}
-
-.image-Haliya img {
-  height: 100px;
-  width: 100px;
-  border-radius: 25%;
-}
-
-.iconsHaliya {
->>>>>>> e74e06e224ece417646d6653a4d8b25d31b7b412
   padding-bottom: 50px;
 }
 
