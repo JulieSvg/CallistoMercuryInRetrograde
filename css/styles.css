@@ -395,19 +395,32 @@ h3 {
   display: flex;
   justify-content: center;
 }
-
-.image-Haliya {
-  margin-right: 100px;
+.legends {
+  padding-bottom: 30px;
 }
 
-.image-Haliya img {
-  height: 100px;
-  width: 100px;
-  border-radius: 25%;
+.bakunawa-button {
+  background-color: #462749;
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
 }
 
-.iconsHaliya {
-  padding-bottom: 50px;
+.bakunawa-button:hover {
+  background-color: #e086d3;
+  color: #462749;
+}
+
+.headerBakunawa {
+  height: 720px;
+  background-color: antiquewhite;
+  background-image: url(../images/bbakunawa.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .references ul li a {
