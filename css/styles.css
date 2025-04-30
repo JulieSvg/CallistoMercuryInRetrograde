@@ -123,12 +123,14 @@ ul li:hover ul.dropdown {
   display: flex;
   align-items: center;
   text-align: center;
+  color: #462749;
 }
 
 h3 {
   font-family: hatolie;
   font-stretch: semi-expanded;
   font-size: 30px;
+  color: #462749;
 }
 
 .haliya {
@@ -142,6 +144,7 @@ h3 {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  color: #462749;
 }
 
 .haliya p {
@@ -150,6 +153,7 @@ h3 {
 
 .haliya img {
   width: 20%;
+  border-radius: 30px;
 }
 
 .chandra {
@@ -163,6 +167,7 @@ h3 {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  color: #462749;
 }
 
 .chandra p {
@@ -171,6 +176,7 @@ h3 {
 
 .chandra img {
   width: 20%;
+  border-radius: 30px;
 }
 
 .kuutar {
@@ -189,12 +195,14 @@ h3 {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  color: #462749;
 }
 .kuutar p {
   width: 600px;
 }
 .kuutar img {
   width: 20%;
+  border-radius: 30px;
 }
 
 .khonshu {
@@ -208,6 +216,8 @@ h3 {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 50px;
+  color: #462749;
 }
 
 .khonshu p {
@@ -216,6 +226,7 @@ h3 {
 
 .khonshu img {
   width: 20%;
+  border-radius: 30px;
 }
 
 .headerChandra {
@@ -232,11 +243,10 @@ h3 {
 .content-chandra {
   margin: 60px auto;
   max-width: 1300px;
-  background: #f2d1c9;
+  background: white;
   padding: 40px;
   border-radius: 20px;
   box-shadow: 8px 8px 25px rgba(70, 39, 73, 0.1);
-  font-family: hatolie;
   color: #462749;
 }
 
@@ -268,6 +278,7 @@ h3 {
 .image-chandra {
   width: 30%;
   transition: transform 0.3s ease-in-out;
+  margin-right: 50px;
 }
 
 .image-chandra img {
@@ -277,6 +288,32 @@ h3 {
 }
 
 .image-chandra:hover {
+  transform: scale(1.05);
+}
+
+.kuutarTemple p {
+  width: 600px;
+}
+.kuutarTemple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.image-khonshu {
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 50px;
+}
+.image-khonshu img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(70, 39, 73, 0.2);
+}
+
+.image-khonshu:hover {
   transform: scale(1.05);
 }
 
@@ -347,20 +384,11 @@ h3 {
   width: 250px;
   font-style: italic;
 }
-.image-kuutar {
-  margin-right: 100px;
-}
 
-.image-kuutar img {
-  height: 150%;
-  width: 150%;
-  border-radius: 25%;
-}
-
-.headerHaliya {
+.headerKhonshu {
   height: 500px;
   background-color: antiquewhite;
-  background-image: url(../images/HaliyaCover.jpg);
+  background-image: url(../images/khonshu\ header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -379,31 +407,16 @@ h3 {
 }
 
 .iconsHaliya {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
-.bakunawa-button {
-  background-color: #462749;
-  color: antiquewhite;
-  padding: 10px;
-  border-radius: 10px;
-  transition-duration: 0.4s;
+.references ul li a {
+  color: #e086d3;
+  cursor: pointer;
 }
 
-.bakunawa-button:hover {
-  background-color: #e086d3;
-  color: #462749;
-}
-
-.headerBakunawa {
-  height: 720px;
-  background-color: antiquewhite;
-  background-image: url(../images/bbakunawa.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+.myths {
+  margin-top: 50px;
 }
 
 .poll {
