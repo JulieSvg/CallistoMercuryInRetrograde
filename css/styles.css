@@ -302,6 +302,20 @@ h3 {
   margin-top: 30px;
   flex-wrap: wrap;
 }
+.image-khonshu {
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 50px;
+}
+.image-khonshu img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(70, 39, 73, 0.2);
+}
+
+.image-khonshu:hover {
+  transform: scale(1.05);
+}
 
 .popup2 {
   width: 300px;
@@ -383,6 +397,15 @@ h3 {
 }
 .legends {
   padding-bottom: 50px;
+}
+
+.references ul li a {
+  color: #e086d3;
+  cursor: pointer;
+}
+
+.myths {
+  margin-top: 50px;
 }
 
 .poll {
