@@ -381,7 +381,7 @@ h3 {
   justify-content: center;
 }
 .maiden-prayer {
-  width: 250px;
+  width: 270px;
   font-style: italic;
 }
 
@@ -394,6 +394,20 @@ h3 {
   background-size: cover;
   display: flex;
   justify-content: center;
+}
+
+.headerHaliya {
+  height: 500px;
+  background-color: antiquewhite;
+  background-image: url(../images/HaliyaCover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.image-haliya {
 }
 .legends {
   padding-bottom: 50px;
@@ -408,6 +422,9 @@ h3 {
   margin-top: 50px;
 }
 
+.end {
+  margin-top: 30px;
+}
 .poll {
   position: absolute;
   top: 800px;
