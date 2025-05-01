@@ -410,7 +410,31 @@ h3 {
 .image-haliya {
 }
 .legends {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.bakunawa-button {
+  background-color: #462749;
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.bakunawa-button:hover {
+  background-color: #e086d3;
+  color: #462749;
+}
+
+.headerBakunawa {
+  height: 720px;
+  background-color: antiquewhite;
+  background-image: url(../images/bbakunawa.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .references ul li a {
