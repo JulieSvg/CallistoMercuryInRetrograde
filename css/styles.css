@@ -39,6 +39,13 @@ nav ul {
   gap: 30px;
 }
 
+.lore-nav {
+  color: white;
+  font-family: hatolie;
+  font-size: 20px;
+  font-stretch: semi-expanded;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -232,7 +239,7 @@ h3 {
 .headerChandra {
   height: 500px;
   background-color: antiquewhite;
-  background-image: url(../images/chandraHeroImage.jpg);
+  background-image: url(../images/chandraHeroImage1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -427,7 +434,7 @@ h3 {
 }
 
 .headerBakunawa {
-  height: 720px;
+  height: 500px;
   background-color: antiquewhite;
   background-image: url(../images/bbakunawa.jpg);
   background-repeat: no-repeat;
@@ -589,14 +596,10 @@ h3 {
 }
 
 .comparison-section {
-  max-width: 1200px;
+  max-width: 1600px;
   height: 500px;
-  margin: 10px auto;
-  padding: 30px;
-  background-color: #f2d1c9;
   border-radius: 15px;
   font-family: hatolie;
-
   text-align: center;
 }
 
@@ -629,7 +632,7 @@ h3 {
 .fun-facts {
   margin: 50px auto;
   padding: 30px;
-  background-color: #f2d1c9;
+  /* background-color: #f2d1c9; */
   border-radius: 15px;
   max-width: 1200px;
   font-family: hatolie;
