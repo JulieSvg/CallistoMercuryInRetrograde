@@ -265,18 +265,18 @@
       <div class="feedback-box">
         <div class="feedback-question">
           <p>Did you find this information interesting?</p>
-          <button class="btn" onclick="openPopup()">Yes</button>
-          <button class="btn" onclick="openPopup()">No</button>
+          <button class="btn" onclick="sendFeedback('yes')">Yes</button>
+          <button class="btn" onclick="sendFeedback('no')">No</button>
         </div>
       </div>
     </section>
 
     <div class="popup" id="popup">
       <img src="images/checkmark.png" alt="checkmark" />
-      <h2>Thank You for Your Feedback!</h2>
+      <h2 id="popup-message">Thank You for Your Feedback!</h2>
       <button type="button" onclick="closePopup()">OK</button>
     </div>
 
-    <script src="js/feedback.js"></script>
+    <script type="module" src="js/feedback.js"></script>
   </body>
 </html>
